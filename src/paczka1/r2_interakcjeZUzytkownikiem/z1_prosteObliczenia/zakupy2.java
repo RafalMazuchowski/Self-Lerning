@@ -1,4 +1,4 @@
-package paczka1.r2_interakcjeZUzytkownikiem;
+package paczka1.r2_interakcjeZUzytkownikiem.z1_prosteObliczenia;
 
 import javax.swing.JOptionPane;
 
