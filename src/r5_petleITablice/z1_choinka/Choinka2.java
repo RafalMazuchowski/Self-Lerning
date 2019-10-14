@@ -6,7 +6,7 @@ public class Choinka2 {
 	private static Scanner sc;
 
 	public static void main(String[] args) {
-		System.out.println("Podaj wielkoœæ choinki");
+		System.out.println("Podaj wielkoœæ choinki: ");
 		sc = new Scanner(System.in);
 		int wielkosc = sc.nextInt();
 		for (int i = 0; i < wielkosc; i++) {
