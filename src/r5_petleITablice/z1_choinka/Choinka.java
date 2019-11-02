@@ -10,10 +10,10 @@ public class Choinka {
 		sc = new Scanner(System.in);
 		int wielkosc = sc.nextInt();
 		for (int i = 0; i < wielkosc; i++) {
-			for (int j = wielkosc; j > i; j--) {
+			for (int j = wielkosc; j > i + 1; j--) {
 				System.out.print("  ");
 			}
-			for (int k = 1; k <= 2 * i + 1; k++) {
+			for (int k = 1; k <= 2 * i +1 ; k++) {
 				System.out.print("* ");
 			}
 			System.out.println();
