@@ -1,4 +1,4 @@
-package r4_InterakcjaWPetli.z2_zgadnijLiczbeZZakresu;
+package r4_interakcjaWPetli.z2_zgadnijLiczbeZZakresu;
 
 import java.util.Random;
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package r6_aplikacjeokienkowe.z5_Przedszkole;
+package r6_aplikacjeokienkowe.z5_przedszkole;
 
 import java.awt.Color;
 import javax.swing.JOptionPane;

@@ -1,4 +1,4 @@
-package r4_InterakcjaWPetli.z1_zagadkaMatematyczna;
+package r4_interakcjaWPetli.z1_zagadkaMatematyczna;
 
 import java.util.Random;
 
