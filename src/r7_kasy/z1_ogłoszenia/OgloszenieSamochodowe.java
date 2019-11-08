@@ -4,14 +4,14 @@ public class OgloszenieSamochodowe extends Ogloszenie {
 
 	private String model;
 	private String marka;
-	private String rokProdukcji;
-	private int przebieg;
+	private int rokProdukcji;
+	private double przebieg;
 	private double pojemnosc;
 	private int moc;
 	private String rodzajPaliwa;
 
 	public OgloszenieSamochodowe(String tytul, String opis, String dane, double cena, String model, String marka,
-			String rokProdukcji, int przebieg, double pojemnosc, int moc, String rodzajPaliwa) {
+			int rokProdukcji, double przebieg, double pojemnosc, int moc, String rodzajPaliwa) {
 		super(tytul, opis, dane, cena);
 		this.model = model;
 		this.marka = marka;
@@ -38,15 +38,15 @@ public class OgloszenieSamochodowe extends Ogloszenie {
 		this.marka = marka;
 	}
 
-	public String getRokProdukcji() {
+	public int getRokProdukcji() {
 		return rokProdukcji;
 	}
 
-	public void setRokProdukcji(String rokProdukcji) {
+	public void setRokProdukcji(int rokProdukcji) {
 		this.rokProdukcji = rokProdukcji;
 	}
 
-	public int getPrzebieg() {
+	public double getPrzebieg() {
 		return przebieg;
 	}
 
