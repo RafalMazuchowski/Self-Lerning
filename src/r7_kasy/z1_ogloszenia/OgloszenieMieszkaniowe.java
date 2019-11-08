@@ -1,4 +1,4 @@
-package r7_kasy.z1_og³oszenia;
+package r7_kasy.z1_ogloszenia;
 
 public class OgloszenieMieszkaniowe extends Ogloszenie {
 	
@@ -6,7 +6,7 @@ public class OgloszenieMieszkaniowe extends Ogloszenie {
 	private double metraz;
 	private int liczbaPokoi;
 
-	public OgloszenieMieszkaniowe(String tytul, String opis, String dane, double cena, String miejscowosc,
+	public OgloszenieMieszkaniowe(String tytul, String opis, String dane, int cena, String miejscowosc,
 			double metraz, int liczbaPokoi) {
 		super(tytul, opis, dane, cena);
 		this.miejscowosc = miejscowosc;
@@ -38,4 +38,14 @@ public class OgloszenieMieszkaniowe extends Ogloszenie {
 		this.liczbaPokoi = liczbaPokoi;
 	}
 
+	@Override
+	public String toString() {
+		return "OgloszenieMieszkaniowe [tytul=" + tytul + ", opis=" + opis + ", dane=" + dane + ", cena=" + cena + ", miejscowosc=" + miejscowosc + ", metraz=" + metraz + ", liczbaPokoi="
+				+ liczbaPokoi + "]";
+	}
+	
+	
+
+	
+	
 }

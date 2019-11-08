@@ -1,10 +1,10 @@
-package r7_kasy.z1_og³oszenia;
+package r7_kasy.z1_ogloszenia;
 
 public class Ogloszenie {
 	String tytul, opis, dane;
-	double cena;
+	int cena;
 
-	public Ogloszenie(String tytul, String opis, String dane, double cena) {
+	public Ogloszenie(String tytul, String opis, String dane, int cena) {
 		super();
 		this.tytul = tytul;
 		this.opis = opis;
@@ -36,12 +36,13 @@ public class Ogloszenie {
 		this.dane = dane;
 	}
 
-	public double getCena() {
+	public int getCena() {
 		return cena;
 	}
 
-	public void setCena(double cena) {
+	public void setCena(int cena) {
 		this.cena = cena;
 	}
+
 
 }

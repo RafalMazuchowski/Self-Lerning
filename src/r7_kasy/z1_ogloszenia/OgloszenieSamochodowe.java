@@ -1,4 +1,4 @@
-package r7_kasy.z1_og³oszenia;
+package r7_kasy.z1_ogloszenia;
 
 public class OgloszenieSamochodowe extends Ogloszenie {
 
@@ -10,7 +10,7 @@ public class OgloszenieSamochodowe extends Ogloszenie {
 	private int moc;
 	private String rodzajPaliwa;
 
-	public OgloszenieSamochodowe(String tytul, String opis, String dane, double cena, String model, String marka,
+	public OgloszenieSamochodowe(String tytul, String opis, String dane, int cena, String model, String marka,
 			int rokProdukcji, double przebieg, double pojemnosc, int moc, String rodzajPaliwa) {
 		super(tytul, opis, dane, cena);
 		this.model = model;
@@ -50,7 +50,7 @@ public class OgloszenieSamochodowe extends Ogloszenie {
 		return przebieg;
 	}
 
-	public void setPrzebieg(int przebieg) {
+	public void setPrzebieg(double przebieg) {
 		this.przebieg = przebieg;
 	}
 
