@@ -1,10 +1,11 @@
-package r7_kasy.z2_listaOgloszen;
+package r7_kasy.z3_odczytOgloszenZPliku;
 
+import java.io.File;
 import java.util.ArrayList;
 
 import r7_kasy.z1_ogloszenia.OgloszenieMieszkaniowe;
 
-public class Serwis2 {
+public class Serwis3 {
 
 	public static void main(String[] args) {
 		ArrayList<OgloszenieMieszkaniowe> listaMieszkan = new ArrayList<OgloszenieMieszkaniowe>();
@@ -19,7 +20,21 @@ public class Serwis2 {
 				"San Diego", 10, 1));
 		listaMieszkan.add(new OgloszenieMieszkaniowe("Mieszkanie", "Sprzedam mieszkanie", "trusku@gmail.com", 37000,
 				"Wroclaw", 330, 4));
+		
+		System.out.println("Pracownicy do zapisania:");
+		for(OgloszenieMieszkaniowe mieszkanie : listaMieszkan) {
+			System.out.println(mieszkanie);
+		}
+		
+		System.out.println("Zapisuje do pliku SCV...");
 
+		
+		File plik = new File("listaMieszkan.csv");
+		
+		ObslugaCSV.zapiszMieszkania(listaMieszkan, plik);
+		
+		System.out.println("Gotowe");
+/*
 		System.out.println("Ogloszenia z przedzialu cenowego 50'000 do 100'000:");
 		for (OgloszenieMieszkaniowe str : listaMieszkan) {
 			if (str.getCena() > 50000 && str.getCena() <= 100000) {
@@ -34,7 +49,7 @@ public class Serwis2 {
 			if (str.getMetraz() >= 100 && str.getMiejscowosc() == "San Diego") {
 				System.out.println(str.getTytul() + ", Cena: " + str.getCena());
 			}
-		}
+		}*/
 	}
 
 }
