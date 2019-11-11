@@ -1,4 +1,4 @@
-package r6_aplikacjeokienkowe.z2_konwerterJednostek;
+package r6_aplikacjeOkienkowe.z2_konwerterJednostek;
 
 public class LogikaKonwertera {
     

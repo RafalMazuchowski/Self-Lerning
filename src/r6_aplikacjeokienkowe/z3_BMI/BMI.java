@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package r6_aplikacjeokienkowe.z3_BMI;
+package r6_aplikacjeOkienkowe.z3_BMI;
 
 import java.awt.Color;
 import java.awt.Font;

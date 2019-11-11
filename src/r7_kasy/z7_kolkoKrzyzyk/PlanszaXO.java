@@ -1,7 +1,5 @@
 package r7_kasy.z7_kolkoKrzyzyk;
 
-import java.util.Scanner;
-
 public class PlanszaXO {
 
 	private static boolean pierwszaPrzekatna(char[][] tablica, char aktywnyGracz) {

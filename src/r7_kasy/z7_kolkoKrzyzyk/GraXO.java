@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class GraXO {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		
 		PlanszaXO plansza = new PlanszaXO();
