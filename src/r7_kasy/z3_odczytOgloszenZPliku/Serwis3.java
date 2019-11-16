@@ -8,7 +8,6 @@ import java.util.Scanner;
 import r7_kasy.z1_ogloszenia.OgloszenieMieszkaniowe;
 
 public class Serwis3 {
-	public static final String SEPARATOR = "\n";
 
 	public static void main(String[] args) {
 		ArrayList<OgloszenieMieszkaniowe> listaMieszkan = new ArrayList<OgloszenieMieszkaniowe>();
